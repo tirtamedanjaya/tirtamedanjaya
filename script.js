@@ -1,1 +1,1 @@
-console.log('ok');
+js/script.js
