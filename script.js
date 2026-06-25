@@ -1,1 +1,1 @@
-js/script.js
+console.log("Tirta Medan Jaya");
