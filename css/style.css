@@ -1,1 +1,20 @@
 
+body{
+    font-family:Arial,sans-serif;
+    background:#081b3a;
+    color:white;
+    padding:40px;
+}
+
+h1{
+    color:#d4af37;
+}
+
+a{
+    background:#d4af37;
+    color:black;
+    padding:10px 15px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
