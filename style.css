@@ -1,1 +1,108 @@
-body{font-family:Arial;background:#081b3a;color:white;padding:40px}a{background:gold;padding:10px;text-decoration:none;color:black}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#081b3a;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#081b3a;
+border-bottom:2px solid #d4af37;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo img{
+height:60px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:bold;
+}
+
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(8,27,58,.8),
+rgba(8,27,58,.8)),
+url('truk.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+padding:80px;
+}
+
+.hero-content{
+max-width:700px;
+}
+
+.badge{
+background:#d4af37;
+color:black;
+padding:10px 20px;
+border-radius:30px;
+font-weight:bold;
+}
+
+.hero h1{
+font-size:60px;
+margin:20px 0;
+}
+
+.hero p{
+font-size:20px;
+line-height:1.7;
+margin-bottom:30px;
+}
+
+.btn{
+background:#25D366;
+color:white;
+padding:15px 30px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+#layanan{
+padding:80px;
+text-align:center;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:#10284f;
+padding:30px;
+border:2px solid #d4af37;
+border-radius:15px;
+font-weight:bold;
+}
+
+#kontak{
+padding:80px;
+text-align:center;
+background:#10284f;
+}
